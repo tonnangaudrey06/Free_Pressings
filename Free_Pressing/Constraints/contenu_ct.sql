@@ -1,0 +1,1 @@
+ALTER TABLE Contenu ADD CONSTRAINT "Est crée par" FOREIGN KEY (Pressingid_pressing) REFERENCES Pressing (id_pressing);
